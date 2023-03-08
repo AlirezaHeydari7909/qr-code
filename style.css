@@ -9,6 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     font-family: "Outfit";
+    min-height: 100vh;
 }
 
 .box{
@@ -16,28 +17,19 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 10rem;
-    width: 18rem;
+    max-width: 20em;
     background-color: hsl(0, 0%, 100%);
     border-radius: 1rem;
-    padding: .7rem;
+    padding: 1rem;
     box-shadow: 0 10px 5px rgba(0, 0, 0, .05);
 }
-@media (max-width:625px) {
-    .box{
-        margin: 10rem 5rem ;
-    }
-    
-}
-@media (max-width: 425px) {
-    .box{
-        margin: 10rem 1.5rem;
-    }
-}
+
+
+
 #qr-code img{
     margin: auto;
-    width: 100%;
-    height: 17em;
+    max-width: 100%;
+    height: 18em;
     border-radius: .5rem;
 }
 #first{
@@ -45,7 +37,8 @@ body{
     text-align: center;
     padding: .7rem;
     font-weight: 700;
-    font-size: 21px;
+    font-size:  0.9375rem;
+    margin:  0.9375rem  0.9375rem 0  0.9375rem;
 
 }
 #second{
@@ -53,5 +46,6 @@ body{
     text-align: center;
     padding: .7rem;
     font-weight: 400;
-    font-size: 15px;
+    font-size:  0.9375rem;
+    margin:  0.9375rem;
 }
